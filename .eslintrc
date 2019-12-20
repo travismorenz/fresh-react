@@ -5,10 +5,7 @@
         "allowImportExportEverywhere": false,
         "codeFrame": false
     },
-    "extends": [
-        "airbnb",
-        "prettier"
-    ],
+    "extends": ["airbnb", "prettier", "prettier/react"],
     "env": {
         "browser": true,
         "jest": true
@@ -20,24 +17,12 @@
                 "code": 100
             }
         ],
-        "prefer-promise-reject-errors": [
-            "off"
-        ],
-        "react/jsx-filename-extension": [
-            "off"
-        ],
-        "react/prop-types": [
-            "warn"
-        ],
-        "no-return-assign": [
-            "off"
-        ],
-        "guard-for-in": [
-            "off"
-        ],
-        "no-restricted-syntax": [
-            "off"
-        ]
+        "prefer-promise-reject-errors": ["off"],
+        "react/jsx-filename-extension": ["off"],
+        "react/prop-types": ["warn"],
+        "no-return-assign": ["off"],
+        "guard-for-in": ["off"],
+        "no-restricted-syntax": ["off"]
     },
     "settings": {
         "import/resolver": {
